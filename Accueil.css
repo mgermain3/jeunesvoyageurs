@@ -1,0 +1,299 @@
+.menu {
+    display: flex;
+    align-self: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    background-color: #1D2F6F;
+}
+
+.imageaccueil {
+    background-image: url(image/image\ accueil.jpeg);
+    height: 650px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.photoequipe {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+
+
+
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 25px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #8390FA;
+}
+
+.fondbleuclair {
+    background-color: #8390FA;
+    margin: 0px;
+    padding: 20px;
+}
+
+.fondbleufonce {
+    background-color: #1D2F6F;
+    margin: 0px;
+    padding: 20px;
+}
+
+
+
+.nosdestination {
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    max-width: 20%;
+    border-radius: 10px;
+    margin: 80px;
+    border: #1D2F6F;
+    text-align: justify;
+    background-color: white;
+    height: 300px;
+   
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  img {
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+
+.alignementpays {
+    display: flex;
+    justify-content: center;
+}
+
+.logoaucentre {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    
+}
+
+  h1 {
+    text-align: center;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 25pt;
+  }
+  
+  h3 {
+    text-align: center;
+  }
+
+  h4 {
+    text-align: center;
+  }
+
+  p{
+    text-align: center;
+  }
+
+  
+  .gallerie {
+    --s: 130px; /* control the size */
+    --g: 10px;  /* control the gap */
+    display: grid;
+    margin: calc(var(--s) + var(--g));
+  }
+  
+  .gallerie > img {
+    grid-area: 1/1;
+    width: var(--s);
+    aspect-ratio: 0.866;
+    object-fit: cover;
+    clip-path: polygon(0% 25%,0% 75%,50% 100%,100% 75%,100% 25%,50% 0);
+    transform: translate(var(--_x,0),var(--_y,0)) scale(var(--_t,1));
+    cursor: pointer;
+    filter: grayscale(80%);
+    transition: .2s linear;
+  }
+  .gallerie > img:hover {
+    filter: grayscale(0);
+    z-index: 1;
+    --_t: 1.2;
+  }
+  
+  .gallerie > img:nth-child(1) {--_x: calc(-100% - var(--g))}
+  .gallerie > img:nth-child(7) {--_x: calc( 100% + var(--g))}
+  .gallerie > img:nth-child(3),
+  .gallerie > img:nth-child(5) {--_y: calc(-75% - .87*var(--g))}
+  .gallerie > img:nth-child(4),
+  .gallerie > img:nth-child(6) {--_y: calc( 75% + .87*var(--g))}
+  .gallerie > img:nth-child(3),
+  .gallerie > img:nth-child(4) {--_x: calc(-50% - .5*var(--g))}
+  .gallerie > img:nth-child(5), 
+  .gallerie > img:nth-child(6) {--_x: calc( 50% + .5*var(--g))}
+  
+  
+  .galeriealignement {
+    display: flex;
+    justify-content: center;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+ 
+  .btn {
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    border-radius: 10px;
+  }
+  
+  .btn:hover {
+    background-color: #8390FA;
+    color: white;
+  }
+
+  .btncentre {
+    display: flex;
+   justify-content: center;
+   margin-bottom: 10px;
+  }
+
+  .cardarticle {
+    width: 300px;
+    height: 400px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    transition: all 0.3s ease;
+  }
+  
+  .cardarticle:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  }
+  
+  .cardarticle img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .cardarticle h3 {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
+  .cardarticle p {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .centrecardarticle {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .police {
+    color : white
+  }
+
+  .fondimage {
+    background-image: url(image/fond\ section.jpg);
+    padding-top: 10px;
+  }
+
+  footer {
+    background-color: #1D2F6F;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-social a {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .footer-links a {
+    margin-right: 20px;
+    color: #666;
+  }
+  
+  .footer-links a:hover {
+    color: #000;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  .fa {
+    font-size: 20px;
+    color: #666;
+  }
+  
+  .fa:hover {
+    color: #000;
+  }
+  
+  .alignementlogofooter {
+    display: flex;
+    justify-content: center;
+  }
+
+  .taillelogofooter{
+    height: 80px;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+  
+  body{
+    font-family: 'Montserrat', sans-serif;
+  }
+    
+
+  /* Fabien De Canaga MKG2 */
