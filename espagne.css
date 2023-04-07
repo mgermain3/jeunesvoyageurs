@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2? family= Montserrat & display=swap');
+
+body{ 
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, .center{
+    text-align: center;
+    }
+.boxintro {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+}
+
+/* .container{
+    margin: auto;
+    max-width: 1000px;
+} */
+
+.boxintro .img {
+    width: 550px; 
+}
+.img {
+    width: 800px; 
+}
+
+/* .barcelone {
+
+} */
+
+.contenu {
+    background-color: #FFFFFF;
+    padding: 0px 40px 0px 40px;
+}
+
+.tout
+{
+    background-color: #8390fa;
+}
+.destinationsG{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.destinationsD{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.barca {
+    margin: 0% 10%;
+    text-align: center;
+}
+   
+.titre {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: 8px;
+    background-color: #f1a96a;
+    color: #FFFFFF;
+}
+
+.h3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 8px;
+    
+}
+.h2 {
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1Opx; 
+    background-color: #FFFFFF;
+    margin-top: 100px;
+}
+
+.belles {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 40px;
+}
